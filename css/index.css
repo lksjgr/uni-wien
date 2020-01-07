@@ -1,70 +1,68 @@
-   html {
-            background-color: #00b1ff;
-            font-family: 'Roboto';
-            color: #ffffff;
-        }
+    html {
+        background-color: #00b1ff;
+        font-family: 'Roboto';
+        color: #ffffff;
+    }
 
-        h1 {
-            text-align: center;
-        }
+    h1 {
+        text-align: center;
+    }
 
-        #navigation{
-            margin: 0;
-            padding: 0;
-            border: 0;
-            width: 60%;
-            height:430px;
-            float: left;
-        } 
-        
-        ul {
-            list-style: none;
-        }
+    #navigation{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 60%;
+        height:430px;
+        float: left;
+    }
 
-        a {
-            font-size: 33px;
-            text-decoration: none;
-            color: #ffffff;
-            
-        }
+    ul {
+        list-style: none;
+    }
 
-        a:hover {
-            color: #cdcdcd;
-        }
+    a {
+        font-size: 33px;
+        text-decoration: none;
+        color: #ffffff;
 
-        #images {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            width: 40%;
-            float: right;
-        }
+    }
 
-        #images #linkImages {
-            width: 35%;
-            float: left;
-            
-        }
-        
-        #images #screenshot {
-            width: 65%;
-            float: left;
-        }
+    a:hover {
+        color: #cdcdcd;
+    }
 
-        #description {
-    
-            float: both;
-            margin-left: 40px;
-        }
+    #images {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 40%;
+        float: right;
+    }
 
-        .clear {
-            clear: both;
-        }
+    #images #linkImages {
+        width: 35%;
+        float: left;
+    }
 
-        p {
-            font-size: 25px;
-        }
+    #images #screenshot {
+        width: 65%;
+        float: left;
+    }
 
-        footer {
-            font-family: sans-serif;
-        }
+    #description {
+        float: left;
+        margin-left: 40px;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    footer {
+        font-family: sans-serif;
+    }
