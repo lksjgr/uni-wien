@@ -1,0 +1,59 @@
+            html {
+                background-color: #00b1ff;
+                color: #ffffff;
+                font-family: "Roboto";
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            h2 {
+                text-align: left;
+                font-size: 40px;
+            }
+
+            h3 {
+                text-align: left;
+                font-size: 25px;
+            }
+
+            #navigation{
+                margin: 0;
+                padding: 0;
+                border: 0;
+                width: 20%;
+                float: left;
+            } 
+
+            #text {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                width: 60%;
+                float: left;
+            }
+            
+            ul {
+                list-style: none;
+            }
+
+            a {
+                font-size: 33px;
+                text-decoration: none;
+                color: #ffffff                
+            }
+
+            a:hover {
+            color: #cdcdcd;
+            }
+
+            p {
+                font-family: sans-serif;
+            }
+
+            footer {
+            font-family: sans-serif;
+            }
+
+
