@@ -5,23 +5,37 @@
         <title>Über uns</title>
         <link rel="stylesheet" type="text/css" href="css/aboutus.css">
         <style>
-        @import url('https://fonts.googleapis.com/css?family=Roboto:900i&display=swap');
-        html{
-            background-image: url("images/background_image.jpg");
-            background-size: 1350px 750px;
-            background-repeat:no-repeat;
-            background-attachment: fixed;
-            background-position: top left;
-        }
+            @import url('https://fonts.googleapis.com/css?family=Roboto:900i&display=swap');
+            html{
+                background-image: url("images/background_image.jpg");
+                background-size: 1350px 750px;
+                background-repeat:no-repeat;
+                background-attachment: fixed;
+                background-position: top left;
+            }
+
+            div.about{
+                position: absolute;
+                top: 200px;
+                left:250px;
+                width: 1000px
+            }
+
+            footer{
+                position: fixed;
+                left: 15px;
+                bottom: 0;
+            }
+
         </style>
-        </head>
+    </head>
 
     <body>
         <h1>
-            <a href="index.html"><img src="images/logo_white.png" alt="Über uns" width="750"></a>
+            <a href="index.html"><img style="position: absolute; top:40px; left: 300px; height: 130px; width:700px" src="images/logo_white.png" alt="Über uns"></a>
         </h1>
 
-        <div id="navigation">
+        <div style="position: absolute; top: 220px; left:15px" id="navigation">
             <ul>
                 <li><a href="aboutus.html">Über uns</a></li>
                 <li><a href="">Download</a></li>
@@ -31,7 +45,7 @@
             </ul>
         </div>
 
-        <div id="text">
+        <div class="about" id="text">
             <h2>
                 Was ihr wissen solltet
             </h2>
@@ -87,9 +101,6 @@
                 sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
         </div>
-
-        <div style="height: 90%; width: 20%; clear: both;"></div>
-
         <footer>&copy; 2020 EILAve Software GmbH</footer>
     </body>
 </html>
