@@ -13,7 +13,7 @@
         padding: 0;
         border: 0;
         width: 60%;
-        height:430px;
+        height:430px;   
         float: left;
     }
 
@@ -38,6 +38,30 @@
         border: 0;
         width: 40%;
         float: right;
+        padding-bottom: 2.5%;
+        
+    }
+
+    img.googleplay {
+        padding: 0;
+        display: block;
+        margin: 4% auto;
+        max-width: 13vw;
+    }
+
+    img.appstore {
+        padding: 0;
+        display: block;
+        margin: 4% auto;
+        max-width: 13vw;
+    }
+
+    img.loginimg {
+        padding: 0;
+        display: block;
+        margin: 0;
+        left: 0%;
+        max-width: 18vw;
     }
 
     #images #linkImages {
@@ -52,7 +76,8 @@
 
     #description {
         float: left;
-        margin-left: 40px;
+        margin-left: 0;
+        width: 60%;
     }
 
     .clear {
@@ -61,8 +86,15 @@
 
     p {
         font-size: 25px;
+        margin-left: 5%;
     }
 
-    footer {
+
+    .footer {
         font-family: sans-serif;
     }
+	.footerdiv{
+	width:100%;
+	float:left;
+    }
+	

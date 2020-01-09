@@ -55,5 +55,9 @@
             footer {
             font-family: sans-serif;
             }
+	    .footerdiv{
+	    width:100%;
+	    float:left;
+	    }
 
 
