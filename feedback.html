@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Feedback</title>
-        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/feedback.css">
     </head>
 
     <body>
@@ -11,9 +11,8 @@
         <h1>
             <a href="index.html"><img src="images/logo_white.png" alt="rentMyCar" width="750"></a>
         </h1>
-        
+
         <div id="navigation">
-        
             <ul>
                 <li><a href="aboutus.html">Über uns</a></li>
                 <li><a href="">Download</a></li>
@@ -21,8 +20,31 @@
                 <li><a href="">FAQ</a></li>
                 <li><a href="">Impressum</a></li>
             </ul>
-        
         </div>
 
+        <div class="container">
+            <div>
+                <h2 style="text-align: center">Contact us</h2>
+                <p style="text-align: center">Give us a feedback!</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <form>
+                        <label>First Name</label>
+                        <input type="text" placeholder="Your name..">
+                        <label>Last Name</label>
+                        <input type="text" placeholder="Your last name..">
+                        <label>Country</label>
+                        <select>
+                            <option>Austria</option>
+                            <option >Germany</option>
+                        </select>
+                        <label>Your Feedback</label>
+                        <textarea placeholder="Write something.." style="height:60%"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
