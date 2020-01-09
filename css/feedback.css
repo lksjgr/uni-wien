@@ -53,10 +53,13 @@ p {
     font-family: sans-serif;
 }
 
-footer {
+.footer {
     font-family: sans-serif;
 }
-
+.footerdiv{
+    width:100%;
+    float:left;
+}
 
 
 input[type=text], select, textarea {
@@ -77,9 +80,9 @@ input[type=submit] {
 }
 
 .container {
-    width:50%;
+    float: left;
+    width:60%;
     height:90%;
-    position:absolute;
     background:#ffffff;
     top:30%;
     left:20%;
