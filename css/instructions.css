@@ -1,23 +1,40 @@
-            html {
-                background-color: #00b1ff;
-                color: #ffffff;
-                font-family: "Roboto";
-            }
+    html {
+        background-color: #00b1ff;
+        color: #ffffff;
+        font-family: "Roboto";
+    }
 
-            h1 {
-                text-align: center;
-            }
+    h1 {
+        text-align: center;
+    }
 
-            h2 {
-                text-align: left;
-                font-size: 40px;
-            }
+    h2 {
+        text-align: left;
+        font-size: 40px;
+    }
 
-            h3 {
-                text-align: left;
-                font-size: 25px;
-            }
-     #images {
+    h3 {
+        text-align: left;
+        font-size: 25px;
+    }
+
+    #text .screenshot img {
+        max-width: 22%;
+        float: right;
+    }
+
+    #text .screenshot p {
+        width: 70%;
+        margin-top: 5%;
+        float: left;
+        font-family: sans-serif;
+    }
+
+    #text .screenshot {
+        display: flex;
+    }
+
+    #images {
         margin: 0;
         padding: 0;
         border: 0;
@@ -35,50 +52,45 @@
         max-width: 13vw;
         margin-left: 2%;
     }
-     #images #linkImages {
-        width: 100%;
+    
+
+    #navigation{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 20%;
+        float: left;
+    } 
+
+    #text {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 60%;
+        float: left;
+    }
+    
+    ul {
+        list-style: none;
     }
 
-            #navigation{
-                margin: 0;
-                padding: 0;
-                border: 0;
-                width: 20%;
-                float: left;
-            } 
+    a {
+        font-size: 33px;
+        text-decoration: none;
+        color: #ffffff                
+    }
 
-            #text {
-                margin: 0;
-                padding: 0;
-                border: 0;
-                width: 60%;
-                float: left;
-            }
-            
-            ul {
-                list-style: none;
-            }
+    a:hover {
+        color: #cdcdcd;
+    }
 
-            a {
-                font-size: 33px;
-                text-decoration: none;
-                color: #ffffff                
-            }
-
-            a:hover {
-            color: #cdcdcd;
-            }
-
-            p {
-                font-family: sans-serif;
-            }
-
-            footer {
-            font-family: sans-serif;
-            }
-	    .footerdiv{
+    footer {
+        font-family: sans-serif;
+    }
+    
+    .footerdiv{
 	    width:100%;
 	    float:left;
-	    }
+	}
 
 

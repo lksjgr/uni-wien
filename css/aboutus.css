@@ -6,16 +6,20 @@
 
             h1 {
                 text-align: center;
+                
             }
 
             h2 {
                 text-align: left;
                 font-size: 40px;
+                
             }
 
             h3 {
                 text-align: left;
                 font-size: 25px;
+                
+                
             }
 
             #navigation{
@@ -33,6 +37,16 @@
                 width: 60%;
                 float: left;
             }
+
+            #text #headlines {
+                width: 50%;
+                float: left;
+            }
+
+            #teamImage {
+                width: 50%;
+                float: both;
+            }
             
             ul {
                 list-style: none;
@@ -45,19 +59,21 @@
             }
 
             a:hover {
-            color: #cdcdcd;
+                color: #cdcdcd;
             }
 
-            p {
+            #text p {
+                width: 90%;
                 font-family: sans-serif;
             }
 
             footer {
-            font-family: sans-serif;
+                font-family: sans-serif;
             }
-	    .footerdiv{
-	    width:100%;
-	    float:left;
-	    }
+        
+            .footerdiv{
+                width:100%;
+                float:left;
+            }
 
 
