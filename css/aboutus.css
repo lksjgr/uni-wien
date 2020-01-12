@@ -47,6 +47,11 @@
                 width: 50%;
                 float: both;
             }
+
+            #scoutLogo {
+                width: 30%;
+                
+            }
             
             ul {
                 list-style: none;
